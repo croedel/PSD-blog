@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    {% if page.tipue_search_active or layout.tipue_search_active %}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+      <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
+      <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+      <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+    {% endif %}
+    
+    <script src="https://cloud.upfing.de/photo/photo_new/syno_photo_external.js"></script>
+  </head>
+  <body>
+    <section class="page-header">
+      <a href="{{ site.github.url }}" <h1 class="project-name">upfing.de</h1> </a>
+      <a href="{{ site.github.url }}/search" class="nav-icon"> <img src="{{ site.github.url }}/images/search.png" height="30"> </a>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    </section>
+   
+    <!-- Navigation -->
+    <nav id="navigation" class="clearfix">
+    <a href="{{ site.github.url }}" class="menu-links">Home</a> <br>
+    <a href="{{ site.github.url }}/about" class="menu-links">Über upfing.de</a> <br>
+    <a href="{{ site.github.url }}/private-zone" class="menu-links">Private Zone</a>
+    </nav> 
+    
+    <section class="main-content">
+      {{ content }}
+      
+      <footer class="site-footer">
+        <span class="site-footer-credits"> 
+          <a href="{{ site.github.url }}" class="site-footer-links">(c) 2018-2019 upfing.de</a> 
+          <a href="{{ site.github.url }}/impressum" class="site-footer-links">Impressum</a> 
+          <a href="{{ site.github.url }}/datenschutz" class="site-footer-links">Datenschutz</a> 
+          <a href="{{ site.github.url }}/nutzungsbedingungen" class="site-footer-links">Nutzungsbedingungen</a> 
+        </span>
+      </footer>
+    </section>
+   
+  </body>
+</html>
