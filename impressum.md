@@ -1,5 +1,8 @@
-Impressum
+# Impressum
 
+This page is a technical blog page of [ProSiebenSat.1 Digital GmbH](http://prosiebensat1digital.de).
+
+```
 ProSiebenSat.1 Digital GmbH
 Medienallee 4
 D-85774 Unterföhring
@@ -14,3 +17,4 @@ Firmensitz: Unterföhring
 UST-Ident-Nr.: DE 218559421
 Registergericht: Amtsgericht München
 Handelsregister Nr.: HRB 130417
+```
