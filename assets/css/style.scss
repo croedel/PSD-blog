@@ -337,6 +337,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .site-footer-links { font-size: 0.7rem; } }
  
 .menu-links { list-style-type: none; margin: 0rem; padding: 0.5rem;}
+.menu-links li { margin-bottom: 0.3rem; }
 .menu-links li a { color: #819198; }
 
 @media screen and (min-width: 64em) { .clearfix { margin-left: 0rem; width: 10rem; padding: 1rem 1rem; font-size: 0.9rem; float: left; } }
