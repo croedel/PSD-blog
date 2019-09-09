@@ -1,5 +1,4 @@
 ---
-title: Engineering Principles
 breadcrumb: Engineering Principles
 ---
 
