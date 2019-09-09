@@ -1,8 +1,9 @@
    <nav id="navigation" class="clearfix">
-    <ul class="menu-links">
-        <li> <a href="{{ site.github.url }}">Home</a> <br> </li>
-        <li> <a href="{{ site.github.url }}/engineering_guidelines/">Engineering Guidelines</a> <br> </li>
-        <li> <a href="{{ site.github.url }}/blog">Blog</a> <br> </li>
-        <li> <a href="{{ site.github.url }}/opensource">Open source</a> </li>
+    <ul class="menu-links">       
+      {% for page in site.pages %}
+        {% if page.nav-title %}
+          <li> <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> </li>
+        {% endif %}
+      {% endfor %}
     </ul>
     </nav>
