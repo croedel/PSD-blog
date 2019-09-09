@@ -1,6 +1,6 @@
-# Welcome to the TechBlog of ProSiebenSat.1 Digital GmbH!
+Welcome to the TechBlog of ProSiebenSat.1 Digital GmbH!
 
-This site contains a growing number of ressources on how we develop software within the PSD. It covers guidelines, processes, best practices, technology and other stuff software engineers may be interested in. 
+This site is from software engineers for software enginners. It contains a growing number of ressources on how we develop software within ProSiebenSat.1 Digital - or short PSD. It covers guidelines, processes, best practices, technology and other stuff software engineers may be interested in. 
 
 ## [Engineering Guidelines](engineering_guidelines/)
 These Engineering Guidelines give an overview of how we want to work together, develop and operate our software successfully within the PSD.
