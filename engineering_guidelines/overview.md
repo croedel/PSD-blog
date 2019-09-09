@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Engineering Guidelines
 breadcrumb: Engineering Guidelines
 ---
