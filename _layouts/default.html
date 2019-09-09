@@ -23,13 +23,15 @@
       <a href="{{ site.github.url }}" <h1 class="project-name">PSD TechBlog</h1> </a>
       <a href="{{ site.github.url }}/search" class="nav-icon"> <img src="{{ site.github.url }}/images/search.png" height="30"> </a>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+      {% include breadcrumb.html %}
     </section>
    
     <!-- Navigation -->
     <nav id="navigation" class="clearfix">
     <ul class="menu-links">
         <li> <a href="{{ site.github.url }}">Home</a> <br> </li>
-        <li> <a href="{{ site.github.url }}/engineering_guidelines">Engineering Guidelines</a> <br> </li>
+        <li> <a href="{{ site.github.url }}/engineering_guidelines/overview">Engineering Guidelines</a> <br> </li>
         <li> <a href="{{ site.github.url }}/blog">Blog</a> <br> </li>
         <li> <a href="{{ site.github.url }}/opensource">Open source</a> </li>
     </ul>
