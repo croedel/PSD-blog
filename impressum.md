@@ -1,3 +1,7 @@
+---
+nav-title: Impressum
+---
+
 # Impressum
 
 This page is a technical blog page of [ProSiebenSat.1 Digital GmbH](http://prosiebensat1digital.de).
