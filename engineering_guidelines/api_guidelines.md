@@ -1,5 +1,4 @@
 ---
-layout: page
 title: API Guidelines
 breadcrumb: API Guidelines
 ---
