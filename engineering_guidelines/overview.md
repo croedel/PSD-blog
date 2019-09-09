@@ -1,3 +1,9 @@
+---
+layout: page
+title: Engineering Guidelines
+breadcrumb: Engineering Guidelines
+---
+
 # Engineering Guidelines
 These Engineering Guidelines give an overview of how we want to work together, develop and operate our software successfully within the PSD.
 

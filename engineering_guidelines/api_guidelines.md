@@ -1,3 +1,9 @@
+---
+layout: page
+title: API Guidelines
+breadcrumb: API Guidelines
+---
+
 # API Guidelines
 
 ## RESTful APIs with JSON payload

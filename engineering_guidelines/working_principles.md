@@ -1,4 +1,10 @@
-# Working principles
+---
+layout: page
+title: Working Principles
+breadcrumb: Working Principles
+---
+
+# Working Principles
 
 ## Working together as a team
 
