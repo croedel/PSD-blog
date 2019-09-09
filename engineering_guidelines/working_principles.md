@@ -1,5 +1,4 @@
 ---
-title: Working Principles
 breadcrumb: Working Principles
 ---
 
