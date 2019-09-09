@@ -1,3 +1,7 @@
+---
+nav-title: Open Source
+---
+
 # Open Source 
 
 Here you can find a growing number of open source projects we developed within PSD.
