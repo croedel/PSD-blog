@@ -1,5 +1,4 @@
 ---
-title: API Guidelines
 breadcrumb: API Guidelines
 ---
 
