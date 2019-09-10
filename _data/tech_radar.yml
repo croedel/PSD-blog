@@ -1,15 +1,95 @@
+# ------------------------------
+# Languages
 - quadrant: 0
   rings:
-    - ring: 0
+    - ring: 0 # Adopt
       items:  
-        - label: Python
-          moved: 0
         - label: PHP
           moved: 0
+        - label: Python
+          moved: 0
+        - label: Kotlin
+          moved: 0
+        - label: TypeScript
+          moved: 0
+        - label: GraphQL
+          moved: 0
+
                
-    - ring: 3
+    - ring: 1 # Trial
+      items:  
+        -label: OpenAPI
+         moved: 0
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
       items:
         - label: Java
           moved: 0
+        - label: Perl
+          moved: 0
+        - label: Ruby
+          moved: 0
 
+# ------------------------------
+# Infrastructure
+- quadrant: 1 
+  rings:
+    - ring: 0 # Adopt
+      items:  
+        - label: Docker
+          moved: 0
+        - label: Kubernetes
+          moved: 0
+        - label: Apache
+          moved: 0
+        - label: Nginx
+          moved: 0
+
+    - ring: 1 # Trial
+      items:  
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
+      items:  
+
+# ------------------------------
+# Frameworks
+- quadrant: 2 
+  rings:
+    - ring: 0 # Adopt
+      items:
+        - label: Node.js
+          moved: 0
+        - label: ReactJS
+          moved: 0
+
+    - ring: 1 # Trial
+      items:  
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
+      items:  
+
+# ------------------------------
+# Data Management
+- quadrant: 3 
+  rings:
+    - ring: 0 # Adopt
+      items:  
+
+    - ring: 1 # Trial
+      items:  
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
+      items:  
 
