@@ -1,5 +1,5 @@
 # ------------------------------
-# Languages
+# Languages & Frameworks
 - quadrant: 0
   rings:
     - ring: 0 # Adopt
@@ -12,9 +12,10 @@
           moved: 0
         - label: TypeScript
           moved: 0
-        - label: GraphQL
+        - label: Node.js
           moved: 0
-
+        - label: ReactJS
+          moved: 0
                
     - ring: 1 # Trial
       items:  
@@ -34,7 +35,7 @@
           moved: 0
 
 # ------------------------------
-# Infrastructure
+# Tools
 - quadrant: 1 
   rings:
     - ring: 0 # Adopt
@@ -47,52 +48,6 @@
           moved: 0
         - label: Nginx
           moved: 0
-
-    - ring: 1 # Trial
-      items:  
-
-    - ring: 2 # Assess
-      items:  
-
-    - ring: 3 # Hold
-      items:  
-
-# ------------------------------
-# Frameworks
-- quadrant: 2 
-  rings:
-    - ring: 0 # Adopt
-      items:
-        - label: Node.js
-          moved: 0
-        - label: ReactJS
-          moved: 0
-
-    - ring: 1 # Trial
-      items:  
-
-    - ring: 2 # Assess
-      items:  
-
-    - ring: 3 # Hold
-      items:  
-
-# ------------------------------
-# Data Management
-- quadrant: 3 
-  rings:
-    - ring: 0 # Adopt
-      items:
-        - label: AWS S3
-          moved: 0
-        - label: AWS RDS
-          moved: 0
-        - label: AWS SNS
-          moved: 0
-        - label: AWS SQS
-          moved: 0
-        - label: AWS DynamoDB
-          moved: 0
         - label: Elasticsearch
           moved: 0 
         - label: Redis
@@ -101,9 +56,82 @@
           moved: 0 
         - label: MySQL
           moved: 0 
-        - label: 
-          moved: 0 
+        - label: GitLab
+          moved: 0
+        - label: GitLab CI
+          moved: 0
+        - label: Confluence
+          moved: 0
+        - label: Jira
+          moved: 0
+        - label: Slack
+          moved: 0
+        - label: OpsGenie
+          moved: 0
+        - label: Terraform
+          moved: 0
+
+    - ring: 1 # Trial
       items:  
+        - label: TestRail
+          moved: 0
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
+      items:  
+
+# ------------------------------
+# Platforms
+- quadrant: 2 
+  rings:
+    - ring: 0 # Adopt
+      items:
+        - label: Web Browser
+          moved: 0
+        - label: Android
+          moved: 0
+        - label: iOS
+          moved: 0
+        - label: AWS
+          moved: 0
+        - label: HbbTV 
+          moved: 0
+        - label: Samsung SmartTV 
+          moved: 0
+        - label: FireTV 
+          moved: 0
+        - label: AndroidTV 
+          moved: 0
+        - label: Akamai 
+          moved: 0
+
+    - ring: 1 # Trial
+      items:  
+
+    - ring: 2 # Assess
+      items:  
+
+    - ring: 3 # Hold
+      items:  
+
+# ------------------------------
+# Techniques
+- quadrant: 3 
+  rings:
+    - ring: 0 # Adopt
+      items:
+        - label: Microservices 
+          moved: 0
+        - label: Agile
+          moved: 0
+        - label: GraphQL
+          moved: 0
+        - label: REST
+          moved: 0
+        - label: CI/CD 
+          moved: 0
 
     - ring: 1 # Trial
       items:  
