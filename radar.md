@@ -4,7 +4,7 @@ layout: radar
 
 <svg class="radar" id="radar"></svg>
 
-<script markdown="0">
+<script>
 radar_visualization({
   svg_id: "radar",
   width: 1450,
@@ -27,7 +27,7 @@ radar_visualization({
     { name: "ASSESS", color: "#fbdb84" },
     { name: "HOLD", color: "#efafa9" }
   ],
-  print_layout: false,
+  print_layout: true,
   // zoomed_quadrant: 0,
   //ENTRIES
   entries: [
@@ -35,9 +35,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Spark",
-        active: false,
-        link: "../data_processing/spark.html",
-        moved: 0
+         moved: 0
       },
   ]
   //ENTRIES
