@@ -14,7 +14,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Zalando Tech Radar — 2019.09",
+  title: "PSD Tech Radar",
   quadrants: [
     { name: "Languages" },
     { name: "Infrastructure" },

@@ -1,45 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
-    {% if page.tipue_search_active or layout.tipue_search_active %}
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
-      <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
-      <script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
-      <script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
-    {% endif %}
-
+    {% include head.html %}
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="{{ "/assets/radar.js" | relative_url }}"></script>
   </head>
-
   <body>
-    <section class="page-header">
-      <a href="{{ site.github.url }}" class="nav-icon"> <img src="{{ site.github.url }}/images/psd.gif" height="50"> </a>
-      <a href="{{ site.github.url }}" <h1 class="project-name">PSD TechBlog</h1> </a>
-      <a href="{{ site.github.url }}/search" class="nav-icon"> <img src="{{ site.github.url }}/images/search.png" height="30"> </a>
-      {% include breadcrumb.html %}
-    </section>
-   
+    {% include pageheader..html %}
     {% include navigation.html %}
-    
+
     <section class="main-content">
       {{ content }}
-      
-      <footer class="site-footer">
-        <span class="site-footer-credits"> 
-          <a href="{{ site.github.url }}" class="site-footer-links">(c) 2019 ProSiebenSat.1 Digital GmbH</a> 
-          <a href="{{ site.github.url }}/impressum" class="site-footer-links">Impressum</a> 
-        </span>
-      </footer>
+
+      {% include footer.html %}
     </section>
-   
+
   </body>
 </html>
+
+
