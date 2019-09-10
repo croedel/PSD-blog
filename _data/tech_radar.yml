@@ -82,6 +82,26 @@
 - quadrant: 3 
   rings:
     - ring: 0 # Adopt
+        - label: AWS S3
+          moved: 0
+        - label: AWS RDS
+          moved: 0
+        - label: AWS SNS
+          moved: 0
+        - label: AWS SQS
+          moved: 0
+        - label: AWS DynamoDB
+          moved: 0
+        - label: Elasticsearch
+          moved: 0 
+        - label: Redis
+          moved: 0 
+        - label: PostgreSQL
+          moved: 0 
+        - label: MySQL
+          moved: 0 
+        - label: 
+          moved: 0 
       items:  
 
     - ring: 1 # Trial
