@@ -222,7 +222,7 @@ function radar_visualization(config) {
         .text(config.rings[i].name)
         .attr("y", -rings[i].radius + 52)
         .attr("text-anchor", "middle")
-        .style("fill", "#e5e5e5")
+        .style("fill", "#d9d9d9")
         .style("font-family", "Arial, Helvetica")
         .style("font-size", 42)
         .style("font-weight", "bold")
