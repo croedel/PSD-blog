@@ -23,10 +23,10 @@ radar_visualization({
     { name: "Techniques" }
   ],
   rings: [
-    { name: "ADOPT", color: "#93c47d" },
-    { name: "TRIAL", color: "#93d2c2" },
-    { name: "ASSESS", color: "#fbdb84" },
-    { name: "HOLD", color: "#efafa9" }
+    { name: "ADOPT", color: "#93c47d", background: "#85c1e9" },
+    { name: "TRIAL", color: "#93d2c2", background: "#aed6f1" },
+    { name: "ASSESS", color: "#fbdb84", background: "#d6eaf8" },
+    { name: "HOLD", color: "#efafa9", background: "#ebf5fb" }
   ],
   print_layout: true,
   // zoomed_quadrant: 0,
