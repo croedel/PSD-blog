@@ -244,6 +244,7 @@ function radar_visualization(config) {
       .style("stroke-width", 1);
     if (config.print_layout) {
       grid.append("text")
+        .attr("class","ring")
         .text(config.rings[i].name)
         .attr("y", -rings[i].radius + 62)
         .attr("text-anchor", "middle")
@@ -302,7 +303,7 @@ function radar_visualization(config) {
         .style("font-size", "18");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
-          .attr("class","ring")
+          .attr("class","quadrant-ring")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
