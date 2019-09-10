@@ -1,3 +1,5 @@
+// This code is based on:
+
 // The MIT License (MIT)
 
 // Copyright (c) 2017 Zalando SE
@@ -279,6 +281,7 @@ function radar_visualization(config) {
 
     // footer
     radar.append("text")
+      .attr("class","footer")
       .attr("transform", translate(footer_offset.x, footer_offset.y))
       .text("▲ moved up     ▼ moved down")
       .attr("xml:space", "preserve")
@@ -289,15 +292,17 @@ function radar_visualization(config) {
     var legend = radar.append("g");
     for (var quadrant = 0; quadrant < 4; quadrant++) {
       legend.append("text")
-        .attr("transform", translate(
+       .attr("class","quadrant")
+       .attr("transform", translate(
           legend_offset[quadrant].x,
           legend_offset[quadrant].y - 45
         ))
         .text(config.quadrants[quadrant].name)
-        .style("font-family", "Arial, Helvetica")
+         .style("font-family", "Arial, Helvetica")
         .style("font-size", "18");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
+          .attr("class","ring")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
