@@ -27,7 +27,7 @@ radar_visualization({
     { name: "ASSESS", color: "#fbdb84" },
     { name: "HOLD", color: "#efafa9" }
   ],
-  print_layout: true,
+  print_layout: false,
   // zoomed_quadrant: 0,
   //ENTRIES
   entries: [
