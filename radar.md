@@ -4,7 +4,7 @@ layout: radar
 
 <svg class="radar" id="radar"></svg>
 
-<script>
+<script markdown="0">
 radar_visualization({
   svg_id: "radar",
   width: 1450,
