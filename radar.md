@@ -59,4 +59,4 @@ The Tech Radar is a tool to inspire and support engineering teams at PSD to pick
 
 ### Visualization
 
-The vizualization is based on an Open Source project from Zalando: (https://github.com/zalando/tech-radar)
+The vizualization is based on an Open Source project from Zalando: [https://github.com/zalando/tech-radar]()
