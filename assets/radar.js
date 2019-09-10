@@ -50,9 +50,9 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 150 },
-    { radius: 220 },
-    { radius: 310 },
+    { radius: 190 },
+    { radius: 260 },
+    { radius: 330 },
     { radius: 400 }
   ];
 
