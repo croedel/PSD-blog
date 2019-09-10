@@ -50,25 +50,25 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 98 },
-    { radius: 165 },
-    { radius: 232 },
-    { radius: 300 }
+    { radius: 130 },
+    { radius: 220 },
+    { radius: 310 },
+    { radius: 400 }
   ];
 
   const title_offset =
-    { x: -575, y: -320 };
+    { x: -675, y: -420 };
 
   const footer_offset =
-    { x: -575, y: 320 };
+    { x: -675, y: 420 };
 
   const legend_offset = [
-    { x: 350, y: 90 },
-    { x: -575, y: 90 },
-    { x: -575, y: -310 },
-    { x: 350, y: -310 }
+    { x: 450, y: 90 },
+    { x: -675, y: 90 },
+    { x: -675, y: -310 },
+    { x: 450, y: -310 }
   ];
-
+  
   function polar(cartesian) {
     var x = cartesian.x;
     var y = cartesian.y;
