@@ -213,7 +213,7 @@ function radar_visualization(config) {
       .attr("cx", 0)
       .attr("cy", 0)
       .attr("r", rings[i].radius)
-      .style("fill", "#e6ffff")
+      .style("fill", config.rings[i].background)
       .style("stroke", config.colors.grid)
       .style("stroke-width", 1);
     if (config.print_layout) {
