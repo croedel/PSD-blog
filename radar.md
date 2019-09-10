@@ -41,14 +41,14 @@ radar_visualization({
 //  ]
   entries: [
   {% for quadrant in site.data.tech_radar %}
-    {% for ring in quadrant.ring %}
-        {% for label in ring.label %}
+    {% for ring in quadrant.rings %}
+        {% for item in ring.items %}
   
             {
                 quadrant: {{ quadrant.quadrant }},
                 ring: {{ ring.ring }},
-                label: {{ label.label }},
-                moved: {{ label.moved }},
+                label: {{ item.label }},
+                moved: {{ item.moved }},
             },    
           {% endfor %}
       {% endfor %}

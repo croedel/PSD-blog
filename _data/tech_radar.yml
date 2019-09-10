@@ -1,12 +1,15 @@
 - quadrant: 0
+  rings:
     - ring: 0
+      items:  
         - label: Python
-            moved: 0
+          moved: 0
         - label: PHP
-            moved: 0
+          moved: 0
                
     - ring: 3
+      items:
         - label: Java
-            moved: 0
+          moved: 0
 
 
