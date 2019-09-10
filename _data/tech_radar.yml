@@ -18,8 +18,8 @@
                
     - ring: 1 # Trial
       items:  
-        -label: OpenAPI
-         moved: 0
+        - label: OpenAPI
+          moved: 0
 
     - ring: 2 # Assess
       items:  
@@ -82,6 +82,7 @@
 - quadrant: 3 
   rings:
     - ring: 0 # Adopt
+      items:
         - label: AWS S3
           moved: 0
         - label: AWS RDS
