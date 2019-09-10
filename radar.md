@@ -2,11 +2,13 @@
 layout: radar
 ---
 
-<svg id="radar"></svg>
+<svg id="radar" viewBox="0 0 60 55"></svg>
 
 <script>
 radar_visualization({
   svg_id: "radar",
+  width: 1450,
+  height: 1000,
   colors: {
     background: "#fff",
     grid: "#bbb",
