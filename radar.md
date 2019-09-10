@@ -61,7 +61,7 @@ radar_visualization({
 
 ### What is the Tech Radar?
 
-The Tech Radar shows most of the technologies, techniques and tools we’re using. It is a tool to inspire and support engineering teams at PSD to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. 
+The Tech Radar shows most of the technologies, techniques and tools we’re using at PSD.  
 
 We clustered them in rings and quadrants, just as the folks at [ThoughtWorks](https://www.thoughtworks.com/radar) do. The visualization is based on an Open Source project from [Zalando](https://github.com/zalando/tech-radar).
 
