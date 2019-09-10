@@ -61,9 +61,11 @@ radar_visualization({
 
 ### What is the Tech Radar?
 
-The PSD Tech Radar is a list of technologies, complemented by an assessment result, called **ring assignment**. 
+The Tech Radar shows most of the technologies, techniques and tools we’re using. It is a tool to inspire and support engineering teams at PSD to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. 
 
-#### Rings
+We clustered them in rings and quadrants, just as the folks at [ThoughtWorks](https://www.thoughtworks.com/radar) do. The visualization is based on an Open Source project from [Zalando](https://github.com/zalando/tech-radar).
+
+### Rings
 
 We use four rings with the following semantics:
 
@@ -72,19 +74,11 @@ We use four rings with the following semantics:
 * **ASSESS**: Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.
 * **HOLD**: Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but usually can be continued for existing projects.
 
-#### Quadrants
+### Quadrants
 
 The four quadrants categorize the technology or technique:
-* **Programming Languages and Frameworks**: Programming languages and frameworks.
+
+* **Programming Languages and Frameworks**: Programming languages and frameworks as you would expect.
 * **Tools**: These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence.
 * **Platforms**: Things that we build software on top of such as mobile technologies like Android, virtual platforms like the JVM, or generic kinds of platforms like hybrid clouds.
 * **Techniques**: These include elements of a software development process, such as experience design; and ways of structuring software, such as microservices.
-
-
-### What is the purpose?
-
-The Tech Radar is a tool to inspire and support engineering teams at PSD to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the pioneering work of [ThoughtWorks](https://www.thoughtworks.com/radar), our Tech Radar sets out the changes in technologies that are interesting in software development - changes that we think our engineering teams should pay attention to and consider using in their projects.
-
-### Visualization
-
-The vizualization is based on an Open Source project from [Zalando](https://github.com/zalando/tech-radar)
