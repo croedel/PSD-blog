@@ -43,6 +43,8 @@ radar_visualization({
 });
 </script>
 
+---
+
 ### What is the Tech Radar?
 
 The PSD Tech Radar is a list of technologies, complemented by an assessment result, called **ring assignment**. We use four rings with the following semantics:
@@ -58,4 +60,4 @@ The Tech Radar is a tool to inspire and support engineering teams at PSD to pick
 
 ### Visualization
 
-The vizualization is based on an Open Source project from Zalando: [https://github.com/zalando/tech-radar]()
+The vizualization is based on an Open Source project from [Zalando](https://github.com/zalando/tech-radar)
