@@ -1,4 +1,8 @@
-## New blog articles
+---
+nav-title: Open Source
+---
+
+## Recent blog articles
 
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
