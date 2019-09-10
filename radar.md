@@ -1,5 +1,6 @@
 ---
 layout: radar
+nav-title: Tech Radar
 ---
 
 <svg class="radar" id="radar"></svg>
