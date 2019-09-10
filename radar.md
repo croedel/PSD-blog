@@ -31,14 +31,30 @@ radar_visualization({
   print_layout: true,
   // zoomed_quadrant: 0,
   //ENTRIES
+// entries: [
+//     {
+//        quadrant: 3,
+//        ring: 0,
+//        label: "Spark",
+//        moved: 0
+//      },
+//  ]
   entries: [
-      {
-        quadrant: 3,
-        ring: 0,
-        label: "Spark",
-         moved: 0
-      },
-  ]
+  {% for quadrant in site.data.tech_radar %}
+    {% for ring in quadrant.ring %}
+        {% for label in ring.label %}
+  
+            {
+                quadrant: {{ quadrant.quadrant }},
+                ring: {{ ring.ring }},
+                label: {{ label.label }},
+                moved: {{ label.moved }},
+            },    
+          {% endfor %}
+      {% endfor %}
+    {% endfor %}
+    ]
+    
   //ENTRIES
 });
 </script>

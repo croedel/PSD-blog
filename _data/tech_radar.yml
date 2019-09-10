@@ -1,0 +1,12 @@
+- quadrant: 0
+    - ring: 0
+        - label: Python
+            moved: 0
+        - label: PHP
+            moved: 0
+               
+    - ring: 3
+        - label: Java
+            moved: 0
+
+
