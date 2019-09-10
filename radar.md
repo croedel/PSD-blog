@@ -2,7 +2,7 @@
 layout: radar
 ---
 
-<svg id="radar" viewBox="0 0 60 55"></svg>
+<svg id="radar" width="90%" height="90%"></svg>
 
 <script>
 radar_visualization({
