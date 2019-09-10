@@ -1,5 +1,5 @@
 ---
-nav-title: Open Source
+nav-title: Blog
 ---
 
 ## Recent blog articles
