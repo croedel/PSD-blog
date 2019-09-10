@@ -7,8 +7,8 @@ layout: radar
 <script>
 radar_visualization({
   svg_id: "radar",
-  width: 841,
-  height: 580,
+  width: 1450,
+  height: 1000,
   colors: {
     background: "#fff",
     grid: "#bbb",
