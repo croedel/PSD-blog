@@ -10,6 +10,8 @@ breadcrumb: Blog
     <section class="post"> 
       {% if post.image %}
         <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
+      {% else %}
+        <img class="image" src="{{ site.baseurl }}/images/blog.jpg"/>
       {% endif %}  
         <p class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </p>
         <p class="date"> Date: {{ post.date | date: '%d.%m.%Y' }} </p>
