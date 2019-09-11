@@ -24,7 +24,7 @@ radar_visualization({
   ],
   rings: [
     { name: "ADOPT", color: "#78bd59", background: "hsl(221, 100%, 93%)" },
-    { name: "TRIAL", color: "#7ecfba", background: "hsl(221, 100%, 95%)" },
+    { name: "TRIAL", color: "#47c9a7", background: "hsl(221, 100%, 95%)" },
     { name: "ASSESS", color: "#f7d26d", background: "hsl(221, 100%, 97%)" },
     { name: "HOLD", color: "#eb8178", background: "hsl(221, 100%, 99%)" }
   ],
