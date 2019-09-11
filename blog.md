@@ -7,7 +7,7 @@ breadcrumb: Blog
 
 <section class="post-list">
   {% for post in site.posts %}
-    {% if forloop.index <= 2 %}
+    {% if forloop.index == 0 or forloop.index == 1 %}
       <section class="post"> 
         {% if post.image %}
           <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
