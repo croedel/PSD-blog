@@ -4,11 +4,9 @@ nav-title: Blog
 
 ## Recent blog articles
 
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.posts %}
+		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+		<sub>{{ post.date | date: '%B %d, %Y' }}</sub>
+    {{ post.excerpt }}
 {% endfor %}
+      
