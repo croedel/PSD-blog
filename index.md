@@ -15,7 +15,7 @@ This site is from software engineers for software enginners. It contains a growi
         <p class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </p>
         <p class="date"> Date: {{ post.date | date: '%d.%m.%Y' }} </p>
         <p class="author"> Author: {{ post.author }} </p>
-        <p class="excerpt"> {{ post.content | strip_html | truncatewords: 50 }} </p>
+        <p class="excerpt"> {{ post.content | strip_html | truncatewords: 30 }} </p>
     </section>
   {% endfor %}
 </section>
