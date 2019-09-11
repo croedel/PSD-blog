@@ -4,7 +4,7 @@
   rings:
     - ring: 0 # Adopt
       items:  
-        - label: PHP
+        - label: PHP 7
           moved: 0
         - label: Python 3
           moved: 0
@@ -14,8 +14,10 @@
           moved: 0
         - label: Node.js
           moved: 0
-        - label: ReactJS
+        - label: React
           moved: 0
+        - label: React Native
+          moved: 1
                
     - ring: 1 # Trial
       items:  
@@ -35,6 +37,8 @@
           moved: 0
         - label: Python 2
           moved: 0
+        - label: PHP 5
+          moved: -1  
 
 # ------------------------------
 # Tools
@@ -100,7 +104,9 @@
           moved: 0
         - label: Akamai 
           moved: 0
-        - label: Mobile 
+        - label: Android 
+          moved: 0
+        - label: iOS 
           moved: 0
         - label: Dynatrace
           moved: 0
@@ -147,10 +153,12 @@
           moved: 0
         - label: MVP
           moved: 0
-        - label: Cross functional teams
+        - label: Autoscaling
           moved: 0
         - label: Serverless
           moved: 1
+        - label: Container
+          moved: 0
 
     - ring: 1 # Trial
       items: 
