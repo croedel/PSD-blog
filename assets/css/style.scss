@@ -368,8 +368,8 @@ a:hover { text-decoration: underline; }
 .radar .blib-text { font-size: 0.6rem; }
 
 .post {}
-.post .title { font-size: 1.2rem; }
-.post .date { font-style: italic;  }
-.post .author { font-size: 1rem; }
-.post .image { width: 50px; }
-.post .excerpt { font-size: 0.8rem; }
+.post .title { font-size: 1.2rem; margin: 0rem; }
+.post .date { font-style: italic;  margin: 0rem; }
+.post .author { font-size: 1rem; margin: 0rem; }
+.post .image { width: 50px; margin: 1rem; }
+.post .excerpt { font-size: 0.8rem; margin: 1rem;}
