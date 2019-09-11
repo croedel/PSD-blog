@@ -8,6 +8,7 @@ nav-title: Blog
 ### [{{ post.title }}] ({{ post.url }})
 _{{ post.date | date: '%B %d, %Y' }}_
 
-{{ post.excerpt }}
+{{ post.content | strip_html | truncatewords: 50 }}
+
 {% endfor %}
       
