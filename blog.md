@@ -10,9 +10,9 @@ author: Christian Rödel
     {% if post.image %}
       <img class="image" src="{{ site.baseurl }}/assets/images/{{ post.image }}"/>
     {% endif %}  
-      <span class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </p>
-      <span class="date"> {{ post.date | date: '%d.%m.%Y' }} </p>
-      <span class="author"> {{ post.author }} </p>
+      <span class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </span>
+      <span class="date"> {{ post.date | date: '%d.%m.%Y' }} </span>
+      <span class="author"> {{ post.author }} </span>
       <p class="excerpt"> {{ post.content | strip_html | truncatewords: 50 }} </p>
   </section>
 {% endfor %}
