@@ -1,5 +1,6 @@
 ---
 nav-title: Blog
+breadcrumb: Blog
 ---
 
 <h1> Recent blog articles </h1>
