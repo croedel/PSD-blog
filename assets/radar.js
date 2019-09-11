@@ -426,6 +426,7 @@ function radar_visualization(config) {
     if (d.active || config.print_layout) {
       var blip_text = config.print_layout ? d.id : d.label.match(/[a-z]/i);
       blip.append("text")
+        .attr("class","blib-text")
         .text(blip_text)
         .attr("y", 3)
         .attr("text-anchor", "middle")
