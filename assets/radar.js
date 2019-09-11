@@ -1,4 +1,5 @@
-// This code is based on:
+// This code is a modified / improved version of the original Open Source 
+// Project of Zalando.
 
 // The MIT License (MIT)
 
@@ -430,7 +431,7 @@ function radar_visualization(config) {
         .attr("text-anchor", "middle")
         .style("fill", "#fff")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", function(d) { return blip_text.length > 2 ? "8" : "9"; })
+        .style("font-size", function(d) { return blip_text.length > 2 ? "7" : "8"; })
         .style("pointer-events", "none")
         .style("user-select", "none");
     }
