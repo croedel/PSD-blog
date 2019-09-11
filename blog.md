@@ -1,7 +1,5 @@
 ---
 nav-title: Blog
-author: Christian Rödel
-image: radar.jpg
 ---
 
 <h1> Recent blog articles </h1>
