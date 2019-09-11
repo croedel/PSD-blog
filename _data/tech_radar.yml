@@ -6,7 +6,7 @@
       items:  
         - label: PHP
           moved: 0
-        - label: Python
+        - label: Python 3
           moved: 0
         - label: Kotlin
           moved: 0
@@ -32,6 +32,8 @@
         - label: Perl
           moved: 0
         - label: Ruby
+          moved: 0
+        - label: Python 2
           moved: 0
 
 # ------------------------------
@@ -64,17 +66,15 @@
           moved: 0
         - label: Jira
           moved: 0
-        - label: Slack
-          moved: 0
-        - label: OpsGenie
-          moved: 0
         - label: Terraform
+          moved: 0
+        - label: Splunk
+          moved: 0
+        - label: Draw.io
           moved: 0
 
     - ring: 1 # Trial
       items:  
-        - label: TestRail
-          moved: 0
 
     - ring: 2 # Assess
       items:  
@@ -88,17 +88,11 @@
   rings:
     - ring: 0 # Adopt
       items:
-        - label: Web Browser
-          moved: 0
-        - label: Android
-          moved: 0
-        - label: iOS
-          moved: 0
         - label: AWS
           moved: 0
         - label: HbbTV 
           moved: 0
-        - label: Samsung SmartTV 
+        - label: SmartTV 
           moved: 0
         - label: FireTV 
           moved: 0
@@ -106,9 +100,24 @@
           moved: 0
         - label: Akamai 
           moved: 0
+        - label: Mobile 
+          moved: 0
+        - label: Dynatrace
+          moved: 0
+        - label: OpsGenie
+          moved: 0
+        - label: Slack
+          moved: 0
+        - label: Conviva
+          moved: 0
+        - label: Docker
+          moved: 0
+
 
     - ring: 1 # Trial
       items:  
+        - label: TestRail
+          moved: 0
 
     - ring: 2 # Assess
       items:  
@@ -132,13 +141,28 @@
           moved: 0
         - label: CI/CD 
           moved: 0
+        - label: Devops
+          moved: 0
+        - label: SRE
+          moved: 0
+        - label: MVP
+          moved: 0
+        - label: Cross functional teams
+          moved: 0
+        - label: Serverless
+          moved: 1
 
     - ring: 1 # Trial
-      items:  
+      items: 
+        - label: OKR
+          moved: 1
 
     - ring: 2 # Assess
       items:  
 
     - ring: 3 # Hold
       items:  
+        - label: Waterfall
+          moved: 0 
+
 
