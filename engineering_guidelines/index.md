@@ -11,5 +11,5 @@ It covers a wide range of topics and is inspired by best-practices and lessons-l
 * [Working principles](working_principles)
 * [Engineering Principles](engineering_principles)
 * [API Guidelines](api_guidelines)
+* [Readings](readings)
 
- 
