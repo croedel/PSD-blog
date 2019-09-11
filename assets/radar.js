@@ -418,7 +418,7 @@ function radar_visualization(config) {
         .style("fill", d.color);
     } else {
       blip.append("circle")
-        .attr("r", 11)
+        .attr("r", 10)
         .attr("fill", d.color);
     }
 
