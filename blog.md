@@ -9,9 +9,9 @@ nav-title: Blog
     {% if post.image %}
       <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
     {% endif %}  
-      <span class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </span>
-      <span class="date"> {{ post.date | date: '%d.%m.%Y' }} </span>
-      <span class="author"> {{ post.author }} </span>
+      <p class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </p>
+      <p class="date"> Date: {{ post.date | date: '%d.%m.%Y' }} </p>
+      <p class="author"> Author: {{ post.author }} </p>
       <p class="excerpt"> {{ post.content | strip_html | truncatewords: 50 }} </p>
   </section>
 {% endfor %}
