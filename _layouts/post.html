@@ -8,10 +8,18 @@
     {% include navigation.html %}
     
     <section class="main-content">
+      <h1> {{ page.title }} </h1>
+      By {{ page.author }}
+      
+      {% if page.image %}
+        <img class="post-image" src="{{ site.baseurl }}/images/posts/{{ page.image }}"/>
+      {% else %}
+        <img class="post-image" src="{{ site.baseurl }}/images/blog.jpg"/>
+      {% endif %}  
+
       {{ content }}
       
       {% include footer.html %}
-    </section>
-   
+    </section> 
   </body>
 </html>
