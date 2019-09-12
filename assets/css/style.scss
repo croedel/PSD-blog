@@ -285,15 +285,15 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .clearfix { margin-left: 0rem; width: 9rem; padding: 0.5rem 0.5rem; font-size: 0.85rem; float: left; } }
 @media screen and (max-width: 42em) { .clearfix { margin-left: 0rem; width: 100%; padding: 0rem 0.5rem; font-size: 0.8rem; float: inherit } }
 
-.breadcrumb { margin: 0rem; padding-top: 0.5rem; list-style:none; border-radius:4px }
-.breadcrumb>li { display:inline-block }
-.breadcrumb>li+li:before { padding:0 5px }
-.breadcrumb { border:0px; display:block }
-.breadcrumb li { font-size:0.8rem }
-.breadcrumb a { color:#DE0000 }
-.breadcrumb a:hover { color:#780000 }
-.breadcrumb>.active a { color:#555555 }
-.breadcrumb>li+li:before { color:#DE0000; content:"\003E\00a0" }
+.breadcrumb { margin: 0rem; padding: 0rem; list-style: none; border-radius: 4px }
+.breadcrumb>li { display: inline-block }
+.breadcrumb>li+li:before { padding: 0 5px }
+.breadcrumb { border: 0px; display: block }
+.breadcrumb li { font-size: 0.8rem }
+.breadcrumb a { color: #DE0000 }
+.breadcrumb a:hover { color: #780000 }
+.breadcrumb>.active a { color: #555555 }
+.breadcrumb>li+li:before { color: #DE0000; content: "\003E\00a0" }
 
 .radar { font-size: 0.7rem; }
 .radar .title { font-size: 1.8rem; }
