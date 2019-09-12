@@ -6,7 +6,7 @@ This site is from software engineers for software enginners. It contains a growi
 
 <section class="post-list">
   {% for post in site.posts limit:3 %}
-    <section class="post"> 
+    <section class="post-teaser"> 
       {% if post.image %}
         <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
       {% else %}
