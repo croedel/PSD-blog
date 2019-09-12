@@ -11,8 +11,9 @@ Within this site you can maintain:
 Follow these steps for creating a post:
 
 - Create a file with `_posts` directory. Naming convention is `YYY-MM-DD-<Name>.md`. E.g. `2019-09-12-test.md`
-- With the header you should add 
-```---
+- With the header you should add following lines (Front Matter)
+```
+---
 layout: post
 title: <Title of your article>
 author: <Your name>
