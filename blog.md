@@ -7,7 +7,7 @@ breadcrumb: Blog
 
 <section class="post-list">
   {% for post in site.posts %}
-      <section class="post"> 
+      <section class="post-teaser"> 
         {% if post.image %}
           <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
         {% else %}
