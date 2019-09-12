@@ -202,7 +202,7 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 64em) { .btn { padding: 0.75rem 1rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .btn { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
 @media screen and (max-width: 42em) { .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
-  .btn + .btn { margin-top: 1rem; margin-left: 0; } }
+.btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
 // .page-header { color: #fff; text-align: center; background-image: url("{{ site.github.url }}/images/header.jpg"); background-size: cover; }
 .page-header { color: #fff; text-align: center; background-color: hsl(221, 100%, 95%); }
@@ -303,14 +303,14 @@ a:hover { text-decoration: underline; }
 .radar .ring { font-size: 2.4rem; }
 .radar .blib-text { font-size: 0.6rem; }
 
-.post-teaser { margin: 0rem 0rem 1rem 0rem; padding: 1rem; border: 2px solid #e7f3ff;; min-height: 125px; }
+.post-teaser { margin: 0rem 0rem 1rem 0rem; padding: 1rem; border: 1px solid #0055af; box-shadow: 2px 5px #e7f3ff; min-height: 125px; }
 .post-teaser .title { font-size: 1.1rem; margin: 0rem; }
 .post-teaser .date { font-style: italic; margin: 0rem; }
 .post-teaser .author { font-style: italic; font-weight:bold; margin: 0rem; }
 .post-teaser .image { height: 90px; margin: 0rem 1rem 1rem 0rem; float: left; }
 .post-teaser .excerpt { margin: 0.2rem 1rem 0rem 0rem;}
 
-.post-header { margin: 0rem 0rem 1rem 0rem; padding: 1rem; border: 2px solid #e7f3ff;; min-height: 155px; }
+.post-header { margin: 0rem 0rem 1rem 0rem; padding: 1rem; border: 1px solid #0055af; box-shadow: 2px 5px #e7f3ff; min-height: 155px; }
 .post-header .title { font-size: 1.2rem; margin: 0.2rem 0rem .2rem 0rem; }
 .post-header .date { font-style: italic; margin: 0rem; }
 .post-header .author { font-style: italic; font-weight:bold; margin: 0rem; }
