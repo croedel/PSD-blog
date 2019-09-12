@@ -8,9 +8,9 @@ This site is from software engineers for software enginners. It contains a growi
   {% for post in site.posts limit:3 %}
     <section class="post-teaser"> 
       {% if post.image %}
-        <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/>
+        <a href="{{ post.url | prepend: site.baseurl }}"> <img class="image" src="{{ site.baseurl }}/images/posts/{{ post.image }}"/> </a>
       {% else %}
-        <img class="image" src="{{ site.baseurl }}/images/blog.jpg"/>
+        <a href="{{ post.url | prepend: site.baseurl }}"> <img class="image" src="{{ site.baseurl }}/images/blog.jpg"/> </a>
       {% endif %}  
         <p class="title"> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </p>
         <p class="date"> Date: {{ post.date | date: '%d.%m.%Y' }} </p>
