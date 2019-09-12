@@ -16,7 +16,7 @@ breadcrumb: Blog
         <p class="date"> Date: {{ post.date | date: '%d.%m.%Y' }} </p>
         <p class="author"> Author: {{ post.author }} </p>
         {% if post.excerpt %}
-            <p class="excerpt"> {{ post.content }} </p>
+            <p class="excerpt"> {{ post.excerpt }} </p>
         {% else %}
             <p class="excerpt"> {{ post.content | strip_html | truncatewords: 50 }} </p>
         {% endif %}
