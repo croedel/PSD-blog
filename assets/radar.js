@@ -305,7 +305,7 @@ function radar_visualization(config) {
         .style("font-size", "18");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
-          .attr("class","quadrant-ring")
+          .attr("class","legend")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
