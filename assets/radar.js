@@ -58,7 +58,7 @@ function radar_visualization(config) {
   ];
 
   const title_offset =
-    { x: -575, y: -320 };
+    { x: -575, y: -330 };
 
   const footer_offset =
     { x: -575, y: 320 };
@@ -66,8 +66,8 @@ function radar_visualization(config) {
   const legend_offset = [
     { x: 350, y: 90 },
     { x: -575, y: 90 },
-    { x: -575, y: -210 },
-    { x: 350, y: -210 }
+    { x: -575, y: -300 },
+    { x: 350, y: -300 }
   ];
   
   function polar(cartesian) {
