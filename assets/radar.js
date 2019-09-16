@@ -225,7 +225,7 @@ function radar_visualization(config) {
         .attr("text-anchor", "middle")
         .style("fill", "#d3d3d3")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", 42)
+        .style("font-size", 36)
         .style("font-weight", "bold")
         .style("pointer-events", "none")
         .style("user-select", "none");
