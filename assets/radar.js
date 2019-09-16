@@ -66,8 +66,8 @@ function radar_visualization(config) {
   const legend_offset = [
     { x: 350, y: 90 },
     { x: -575, y: 90 },
-    { x: -575, y: -250 },
-    { x: 350, y: -250 }
+    { x: -575, y: -300 },
+    { x: 350, y: -300 }
   ];
   
   function polar(cartesian) {
@@ -221,7 +221,7 @@ function radar_visualization(config) {
       grid.append("text")
         .attr("class","ring")
         .text(config.rings[i].name)
-        .attr("y", -rings[i].radius + 42)
+        .attr("y", -rings[i].radius + 40)
         .attr("text-anchor", "middle")
         .style("fill", "#d3d3d3")
         .style("font-family", "Arial, Helvetica")
@@ -275,12 +275,12 @@ function radar_visualization(config) {
   if (config.print_layout) {
 
     // title
-    radar.append("text")
-      .attr("class","title")
-      .attr("transform", translate(title_offset.x, title_offset.y))
-      .text(config.title)
-      .style("font-family", "Arial, Helvetica")
-      .style("font-size", "34");
+//      radar.append("text")
+//      .attr("class","title")
+//      .attr("transform", translate(title_offset.x, title_offset.y))
+//      .text(config.title)
+//      .style("font-family", "Arial, Helvetica")
+//      .style("font-size", "34");
 
     // footer
     radar.append("text")
