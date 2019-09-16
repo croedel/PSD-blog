@@ -82,6 +82,39 @@
           moved: 0
         - label: Icinga2
           moved: 0
+          
+        - label: Docker
+          moved: 0
+        - label: Kubernetes
+          moved: 0
+        - label: Apache
+          moved: 0
+        - label: Nginx
+          moved: 0
+        - label: Elasticsearch
+          moved: 0 
+        - label: Redis
+          moved: 0 
+        - label: PostgreSQL
+          moved: 0 
+        - label: MySQL
+          moved: 0 
+        - label: GitLab
+          moved: 0
+        - label: GitLab CI
+          moved: 0
+        - label: Confluence
+          moved: 0
+        - label: Jira
+          moved: 0
+        - label: Terraform
+          moved: 0
+        - label: Splunk
+          moved: 0
+        - label: Draw.io
+          moved: 0
+        - label: Icinga2
+          moved: 0          
 
     - ring: 1 # Trial
       items:  
