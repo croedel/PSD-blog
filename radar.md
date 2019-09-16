@@ -8,8 +8,8 @@ nav-title: Tech Radar
 <script>
 radar_visualization({
   svg_id: "radar",
-  width: 1450,
-  height: 1000,
+  width: 1200,
+  height: 900,
   colors: {
     background: "#fff",
     grid: "#9a9a9a",
