@@ -66,8 +66,8 @@ function radar_visualization(config) {
   const legend_offset = [
     { x: 350, y: 90 },
     { x: -575, y: 90 },
-    { x: -575, y: -300 },
-    { x: 350, y: -300 }
+    { x: -575, y: -240 },
+    { x: 350, y: -240 }
   ];
   
   function polar(cartesian) {
