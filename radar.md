@@ -3,6 +3,8 @@ layout: radar
 nav-title: Tech Radar
 ---
 
+# PSD Tech Radar 
+
 <svg class="radar" id="radar"></svg>
 
 <script>
@@ -15,7 +17,6 @@ radar_visualization({
     grid: "#9a9a9a",
     inactive: "#ddd"
   },
-  title: "PSD Tech Radar",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Tools" },
