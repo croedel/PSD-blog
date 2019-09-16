@@ -221,7 +221,7 @@ function radar_visualization(config) {
       grid.append("text")
         .attr("class","ring")
         .text(config.rings[i].name)
-        .attr("y", -rings[i].radius + 52)
+        .attr("y", -rings[i].radius + 42)
         .attr("text-anchor", "middle")
         .style("fill", "#d3d3d3")
         .style("font-family", "Arial, Helvetica")
