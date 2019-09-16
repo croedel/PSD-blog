@@ -295,10 +295,10 @@ a:hover { text-decoration: underline; }
 .breadcrumb>.active a { color: #555555 }
 .breadcrumb>li+li:before { color: #DE0000; content: "\003E\00a0" }
 
-.radar { font-size: 0.7rem; }
-.radar .footer { font-size: 0.7rem; }
+.radar { font-size: 0.6rem; }
+.radar .footer { font-size: 0.8rem; }
 .radar .quadrant { font-size: 1.3rem; }
-.radar .legend { font-size: 0.75rem; }
+.radar .quadrant-ring { font-size: 0.8rem; }
 .radar .ring { font-size: 2.0rem; }
 .radar .blib-text { font-size: 0.6rem; }
 
