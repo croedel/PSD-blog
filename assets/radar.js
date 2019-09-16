@@ -51,9 +51,9 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 180 },
-    { radius: 220 },
-    { radius: 260 },
+    { radius: 150 },
+    { radius: 200 },
+    { radius: 250 },
     { radius: 300 }
   ];
 
@@ -233,13 +233,13 @@ function radar_visualization(config) {
 
   // draw grid lines
   grid.append("line")
-    .attr("x1", 0).attr("y1", -400)
-    .attr("x2", 0).attr("y2", 400)
+    .attr("x1", 0).attr("y1", -300)
+    .attr("x2", 0).attr("y2", 300)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
   grid.append("line")
-    .attr("x1", -400).attr("y1", 0)
-    .attr("x2", 400).attr("y2", 0)
+    .attr("x1", -300).attr("y1", 0)
+    .attr("x2", 300).attr("y2", 0)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
 
