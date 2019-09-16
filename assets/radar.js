@@ -61,13 +61,13 @@ function radar_visualization(config) {
     { x: -575, y: -340 };
 
   const footer_offset =
-    { x: -575, y: 340 };
+    { x: -50, y: 370 };
 
   const legend_offset = [
     { x: 350, y: 90 },
     { x: -575, y: 90 },
-    { x: -575, y: -300 },
-    { x: 350, y: -300 }
+    { x: -575, y: -350 },
+    { x: 350, y: -350 }
   ];
   
   function polar(cartesian) {
