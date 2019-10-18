@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    {% include head.html %} 
+  </head>
+  <body>
+    {% include pageheader.html %} 
+    {% include navigation.html %}
+    
+    <section class="main-content">
+      <section class="post-header">
+        {% if page.image %}
+          <img class="image" src="{{ site.baseurl }}/images/posts/{{ page.image }}"/>
+        {% else %}
+          <img class="image" src="{{ site.baseurl }}/images/blog.jpg"/>
+        {% endif %}  
+        
+        <p class="title"> {{ page.title }} </p>
+        <p class="date"> Date: {{ page.date | date: '%d.%m.%Y' }} </p>
+        <p class="author"> Author: {{ page.author }} </p>   
+        <p class="excerpt"> {{ page.summary }} </p>   
+      </section> 
+      
+      {{ content }}
+      
+      {% include footer.html %}
+    </section> 
+  </body>
+</html>

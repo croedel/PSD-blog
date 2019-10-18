@@ -1,4 +1,5 @@
-// This code is based on:
+// This code is a modified / improved version of the original Open Source 
+// Project of Zalando.
 
 // The MIT License (MIT)
 
@@ -50,23 +51,23 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 190 },
-    { radius: 260 },
-    { radius: 330 },
-    { radius: 400 }
+    { radius: 150 },
+    { radius: 200 },
+    { radius: 250 },
+    { radius: 300 }
   ];
 
   const title_offset =
-    { x: -675, y: -420 };
+    { x: -575, y: -340 };
 
   const footer_offset =
-    { x: -675, y: 420 };
+    { x: -90, y: 370 };
 
   const legend_offset = [
-    { x: 450, y: 90 },
-    { x: -675, y: 90 },
-    { x: -675, y: -310 },
-    { x: 450, y: -310 }
+    { x: 350, y: 90 },
+    { x: -575, y: 90 },
+    { x: -575, y: -340 },
+    { x: 350, y: -340 }
   ];
   
   function polar(cartesian) {
@@ -220,11 +221,11 @@ function radar_visualization(config) {
       grid.append("text")
         .attr("class","ring")
         .text(config.rings[i].name)
-        .attr("y", -rings[i].radius + 52)
+        .attr("y", -rings[i].radius + 40)
         .attr("text-anchor", "middle")
         .style("fill", "#d3d3d3")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", 42)
+        .style("font-size", 36)
         .style("font-weight", "bold")
         .style("pointer-events", "none")
         .style("user-select", "none");
@@ -232,13 +233,13 @@ function radar_visualization(config) {
 
   // draw grid lines
   grid.append("line")
-    .attr("x1", 0).attr("y1", -400)
-    .attr("x2", 0).attr("y2", 400)
+    .attr("x1", 0).attr("y1", -300)
+    .attr("x2", 0).attr("y2", 300)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
   grid.append("line")
-    .attr("x1", -400).attr("y1", 0)
-    .attr("x2", 400).attr("y2", 0)
+    .attr("x1", -300).attr("y1", 0)
+    .attr("x2", 300).attr("y2", 0)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
 
@@ -274,12 +275,12 @@ function radar_visualization(config) {
   if (config.print_layout) {
 
     // title
-    radar.append("text")
-      .attr("class","title")
-      .attr("transform", translate(title_offset.x, title_offset.y))
-      .text(config.title)
-      .style("font-family", "Arial, Helvetica")
-      .style("font-size", "34");
+//      radar.append("text")
+//      .attr("class","title")
+//      .attr("transform", translate(title_offset.x, title_offset.y))
+//      .text(config.title)
+//      .style("font-family", "Arial, Helvetica")
+//      .style("font-size", "34");
 
     // footer
     radar.append("text")
@@ -409,15 +410,15 @@ function radar_visualization(config) {
     // blip shape
     if (d.moved > 0) {
       blip.append("path")
-        .attr("d", "M -11,5 11,5 0,-13 z") // triangle pointing up
+        .attr("d", "M -12,6 12,6 0,-14 z") // triangle pointing up
         .style("fill", d.color);
     } else if (d.moved < 0) {
       blip.append("path")
-        .attr("d", "M -11,-5 11,-5 0,13 z") // triangle pointing down
+        .attr("d", "M -12,-6 12,-6 0,14 z") // triangle pointing down
         .style("fill", d.color);
     } else {
       blip.append("circle")
-        .attr("r", 9)
+        .attr("r", 10)
         .attr("fill", d.color);
     }
 
@@ -425,12 +426,13 @@ function radar_visualization(config) {
     if (d.active || config.print_layout) {
       var blip_text = config.print_layout ? d.id : d.label.match(/[a-z]/i);
       blip.append("text")
+        .attr("class","blib-text")
         .text(blip_text)
         .attr("y", 3)
         .attr("text-anchor", "middle")
         .style("fill", "#fff")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", function(d) { return blip_text.length > 2 ? "8" : "9"; })
+        .style("font-size", function(d) { return blip_text.length > 2 ? "7" : "8"; })
         .style("pointer-events", "none")
         .style("user-select", "none");
     }

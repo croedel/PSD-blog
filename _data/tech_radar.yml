@@ -18,11 +18,15 @@
           moved: 0
         - label: React Native
           moved: 1
+        - label: JavaScript
+          moved: 0 
                
     - ring: 1 # Trial
       items:  
         - label: OpenAPI
           moved: 0
+        - label: Go
+          moved: 0  
 
     - ring: 2 # Assess
       items:  
@@ -76,6 +80,8 @@
           moved: 0
         - label: Draw.io
           moved: 0
+        - label: Icinga2
+          moved: 0
 
     - ring: 1 # Trial
       items:  
@@ -118,7 +124,12 @@
           moved: 0
         - label: Docker
           moved: 0
-
+        - label: FairPlay DRM
+          moved: 0
+        - label: Widevine DRM
+          moved: 0
+        - label: PlayReady DRM
+          moved: 0
 
     - ring: 1 # Trial
       items:  
@@ -147,7 +158,7 @@
           moved: 0
         - label: CI/CD 
           moved: 0
-        - label: Devops
+        - label: DevOps
           moved: 0
         - label: SRE
           moved: 0
@@ -158,6 +169,8 @@
         - label: Serverless
           moved: 1
         - label: Container
+          moved: 0
+        - label: Cloud
           moved: 0
 
     - ring: 1 # Trial

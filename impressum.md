@@ -3,7 +3,7 @@
 
 # Impressum
 
-This page is a technical blog page of [ProSiebenSat.1 Digital GmbH](http://prosiebensat1digital.de).
+This page is a technical blog page of [ProSiebenSat.1 Digital GmbH](http://www.prosiebensat1digital.de), a subsidiary of [ProSiebenSat.1 Media SE](https://www.prosiebensat1.com/) 
 
 ```
 ProSiebenSat.1 Digital GmbH

@@ -3,19 +3,20 @@ layout: radar
 nav-title: Tech Radar
 ---
 
+# PSD Tech Radar 
+
 <svg class="radar" id="radar"></svg>
 
 <script>
 radar_visualization({
   svg_id: "radar",
-  width: 1450,
-  height: 1000,
+  width: 1200,
+  height: 800,
   colors: {
     background: "#fff",
-    grid: "#bbb",
+    grid: "#9a9a9a",
     inactive: "#ddd"
   },
-  title: "PSD Tech Radar",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Tools" },
@@ -23,10 +24,10 @@ radar_visualization({
     { name: "Techniques" }
   ],
   rings: [
-    { name: "ADOPT", color: "#93c47d", background: "hsl(221, 100%, 93%)" },
-    { name: "TRIAL", color: "#93d2c2", background: "hsl(221, 100%, 95%)" },
-    { name: "ASSESS", color: "#fbdb84", background: "hsl(221, 100%, 97%)" },
-    { name: "HOLD", color: "#efafa9", background: "hsl(221, 100%, 99%)" }
+    { name: "ADOPT", color: "#78bd59", background: "hsl(221, 100%, 93%)" },
+    { name: "TRIAL", color: "#47c9a7", background: "hsl(221, 100%, 95%)" },
+    { name: "ASSESS", color: "#f7d26d", background: "hsl(221, 100%, 97%)" },
+    { name: "HOLD", color: "#eb8178", background: "hsl(221, 100%, 99%)" }
   ],
   print_layout: true,
   // zoomed_quadrant: 0,
