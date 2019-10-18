@@ -10,8 +10,6 @@ It covers a wide range of topics and is inspired by best-practices and lessons-l
 
 * [Working principles](working_principles): How we want to work together
 * [Engineering Principles](engineering_principles): How we want to engineer our software
-* [AWS Infrastructure](aws_infrastructure): Making maximum use of AWS as our hosting infrastructure
 * [API Guidelines](api_guidelines): Building RESTful API's
-* [Tech Health Metrics](tech_health_metrics): Technical metrics all teams should have implemented (e.g. monitoring, alerting, test coverage, security, ...)
 * [Readings](readings): Interesting readings
 
